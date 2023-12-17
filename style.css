@@ -278,3 +278,25 @@ header {
   font-style: normal;
   line-height: 130%;
 }
+
+.card-metrics{
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.card-m{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  background-color: white;
+  padding: 48px 16px;
+  flex: 1;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 4px solid #F2BFAF;
+}
