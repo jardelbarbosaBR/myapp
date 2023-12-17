@@ -300,3 +300,43 @@ header {
   border-radius: 20px 20px 0px 0px;
   border-bottom: 4px solid #F2BFAF;
 }
+
+
+/* Estilização highlighted */
+
+.highlighted{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 55px;
+  gap: 60px;
+}
+
+.highlighted-text-btn-content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.highlighted-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.highlighted-text h1{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.highlighted-text p{
+  font-family: "Mulish", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+}
