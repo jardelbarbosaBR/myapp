@@ -344,3 +344,35 @@ header {
 
 /* Estilização testimonials-content */
 
+
+.testimonials-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 55px;
+  gap: 60px;
+}
+
+.card-stores{
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-test{
+  display: flex;
+  flex: 1 0 0;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px 30px;
+  align-items: center;
+  gap: 30px;
+  border-radius: 20px;
+  border: solid 1px #E5F4F2;
+  background: #FFF;
+  box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
