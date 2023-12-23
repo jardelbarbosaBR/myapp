@@ -376,3 +376,17 @@ header {
   background: #FFF;
   box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
 }
+
+.card-test-text p{
+  color: #2D2D2D;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+ .card-test-star{
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+ }
